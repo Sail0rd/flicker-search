@@ -1,30 +1,18 @@
-# Angular app that uses Flickr API to search for photos
+# Simple Photo search engine using flickr api
 
-This is an Angular project showcasing a simple photo lookup using a public Flickr API.
+# Installation
 
-![](demo.gif)
-
-
-More information about Flickr API:
-
-https://www.flickr.com/services/api/
-
-## Installation
-
-In the project folder, type:
+Clone the repository first,
+then type
+```sh
+npm install && npm install @angular/cli
 ```
-npm install
-```
+in the root of the repo
 
-You need to create a Flickr account and get your API key.
-That key has to be set inside environment/environment.ts file.
-
-## Usage
-
-In the project folder, type:
-```
+after you can lauch the project using the 
+```sh
 ng serve
 ```
+command,
 
-Then open your browser and go to:
-http://localhost:4200/
+then go to [http://localhost:4200](http://localhost:4200)
